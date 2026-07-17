@@ -1,6 +1,0 @@
-{
-  "name": "Sila",
-  "description": "Sila is a secure, institutional-grade liquidity management and sector-based investment platform.",
-  "requestFramePermissions": ["camera"],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
