@@ -1,4 +1,4 @@
-# Sila - 
+# Sila - The Future of Self-Controlled Wealth
 
 ## Team Members
 - Fidel Awa-Abuon  
@@ -24,7 +24,6 @@ The Nigerian financial sector is currently defined by a severe, paradoxical disc
 
 ## ✨ Our Solution
 
-*Provide a short, high-level description of your project. What is your unique idea? What does it do? How does it solve the problem?*
 Sila bypasses traditional banks' expensive, complex administrative intermediaries by introducing Sector-Directed Savings Pools directly to retail depositors intending to max on their free cash margins.
 ---
 
