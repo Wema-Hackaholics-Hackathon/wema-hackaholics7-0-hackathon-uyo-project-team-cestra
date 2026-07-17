@@ -4,6 +4,8 @@
 - Fidel Awa-Abuon  
 - Bassey Emmanuel Emmanuel
 - Morgan Victor
+- Tom Udoh
+- Edwin Idopise
 
 ---
 
