@@ -11,9 +11,9 @@
 
 ## 🚀 Live Demo
 
-*   **Live Application:** [Link to your deployed Vercel/Netlify/Render URL]
+*   **Live Application:** {https://sila-lovat.vercel.app/]
 *   **Backend API:** [Link to your live backend API endpoint URL, if separate]
-*   **Recorded Demo:** [Link to your recorded demo explaining how your solution works using Loom].
+*   **Recorded Demo:** [https://www.loom.com/share/efff6b5b958143e096cffe1d34167ffc]
 
 
 ---
