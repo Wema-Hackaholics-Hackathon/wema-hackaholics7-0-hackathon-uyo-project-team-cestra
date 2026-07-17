@@ -1,11 +1,9 @@
-# [Project Title]
+# Sila - 
 
 ## Team Members
-- [Name 1]
-- [Name 2]
-- [Name 3]
-- [Name 4]
-- [Name 5]
+- Fidel Awa-Abuon  
+- Bassey Emmanuel Emmanuel
+- Morgan Victor
 
 ---
 
@@ -20,17 +18,14 @@
 
 ## 🎯 The Problem
 
-*Which "How Might We..." question from the challenge brief are you tackling? Show the format by providing an example below.*
+Millions of Nigerians still do not use formal financial services. Many own accounts they rarely use because traditional offerings do not fit how they naturally earn, save, borrow, or execute transactions.
+The Nigerian financial sector is currently defined by a severe, paradoxical disconnect between capital supply and capital demand. How do we make banking more interesting and more rewarding?
 
-> **Example:** How might we help busy people organize their daily tasks more effectively?
 
 ## ✨ Our Solution
 
 *Provide a short, high-level description of your project. What is your unique idea? What does it do? How does it solve the problem?*
-
-**Example:**
-"Our project, 'TaskMaster,' is a clean and simple to-do list application. It allows users to add tasks, mark them as complete, and sort them by priority. The goal is to provide a straightforward tool to help users stay organized."
-
+Sila bypasses traditional banks' expensive, complex administrative intermediaries by introducing Sector-Directed Savings Pools directly to retail depositors intending to max on their free cash margins.
 ---
 
 ## 🛠️ Tech Stack
