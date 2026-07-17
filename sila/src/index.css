@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  
+  --color-primary: #D4AF37;
+  --color-primary-container: #1A1A1A;
+  --color-accent-emerald: #D4AF37;
+  --color-accent-gold: #D4AF37;
+  --color-status-success: #D4AF37;
+  --color-status-warning: #B45309;
+  --color-status-error: #991B1B;
+  --color-background-page: #0A0A0A;
+  --color-background-card: #111111;
+  --color-text-primary: #F5F5F5;
+  --color-text-muted: rgba(245, 245, 245, 0.5);
+  --color-border-subtle: rgba(255, 255, 255, 0.1);
+  
+  --animate-scan: scan 3s linear infinite;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-background-page);
+    color: var(--color-text-primary);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Custom styles for high-fidelity interactive elements */
+.issue-card-selected {
+  border: 1px solid var(--color-accent-gold) !important;
+  background-color: rgba(212, 175, 55, 0.05) !important;
+}
+
+.issue-card-selected .icon-container {
+  background-color: var(--color-accent-gold) !important;
+  color: #0A0A0A !important;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.text-mask {
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to bottom, #F5F5F5 50%, rgba(245,245,245,0.1) 100%);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Hide scrollbars but keep scrolling interactive */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Motion system animation keyframes */
+@keyframes scan {
+  0% { transform: translateY(-100%); opacity: 0; }
+  50% { opacity: 0.5; }
+  100% { transform: translateY(100%); opacity: 0; }
+}
+
+.scanner-line {
+  animation: scan 3s linear infinite;
+}
+
+/* Custom animations for fluid layout changes */
+.transition-standard {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
