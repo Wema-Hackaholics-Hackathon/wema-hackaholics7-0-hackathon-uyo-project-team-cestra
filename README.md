@@ -33,11 +33,11 @@ Sila bypasses traditional banks' expensive, complex administrative intermediarie
 
 *List the major technologies, frameworks, and platforms you used to build your project.*
 
-*   **Frontend:** (e.g., React, Next.js, Tailwind CSS)
-*   **Backend:** (e.g., Node.js with Serverless Functions on Vercel)
-*   **Database:** (e.g., PostgreSQL via Supabase)
-*   **Deployment:** (e.g., Vercel)
-*   **AI/APIs:** (e.g., Google Gemini API)
+*   **Frontend:** React, Typescript, Tailwind CSS
+*   **Backend:** Go Lang
+*   **Database:** PostgreSQL via Supabase
+*   **Deployment:** Vercel
+*   **AI/APIs:** Open banking API, Check NIN/BVN API
 
 ---
 
